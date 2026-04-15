@@ -1,0 +1,31 @@
+# Build Directories
+build/
+build-*/
+out/
+bin/
+lib/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Dependencies
+vcpkg_installed/
+.vcpkg/
+
+# Test Artifacts & Archives
+*.aeth
+*.bin
+*.out
+*.log
+bench_data*/
+
+# macOS OS files
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
