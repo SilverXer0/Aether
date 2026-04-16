@@ -1,6 +1,6 @@
 # Aether
 
-Aeither is a high-performance, multithreaded compression utility utilizing `ZSTD`. Aether is built explicitly to construct a highly-optimized parallel C++ pipeline to achieve maximum disk-to-disk throughput on modern multi-core processors.
+Aether is a high-performance, multithreaded compression utility utilizing `ZSTD`. Aether is built explicitly to construct a highly-optimized parallel C++ pipeline to achieve maximum disk-to-disk throughput on modern multi-core processors.
 
 ## Features
 
