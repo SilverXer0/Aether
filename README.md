@@ -1,6 +1,6 @@
 # Aether
 
-A high-performance, multithreaded compression utility utilizing `ZSTD`. AetherCompress is built explicitly to construct a highly-optimized parallel C++ pipeline to achieve maximum disk-to-disk throughput on modern multi-core processors.
+A high-performance, multithreaded compression utility utilizing `ZSTD`. Aether is built explicitly to construct a highly-optimized parallel C++ pipeline to achieve maximum disk-to-disk throughput on modern multi-core processors.
 
 ## Features
 
@@ -16,7 +16,7 @@ A high-performance, multithreaded compression utility utilizing `ZSTD`. AetherCo
 ## Building Natively (macOS / Linux)
 
 ### Dependencies
-AetherCompress uses `cmake` with `vcpkg`. Standard compilers (Clang on macOS or GCC 13+ on Linux) are required.
+Aether uses `cmake` with `vcpkg`. Standard compilers (Clang on macOS or GCC 13+ on Linux) are required.
 - `cli11`
 - `zstd`
 - `gtest` (for unit tests)
@@ -40,7 +40,7 @@ cd build && ctest --output-on-failure
 
 ## Running through Docker (Linux Evaluator)
 
-To seamlessly test AetherCompress leveraging the proprietary Linux `io_uring` kernel logic (especially if you are on macOS), a prebuilt `Dockerfile` is provided. This safely isolates kernel-privileged instructions off of your machine.
+To seamlessly test Aether leveraging the proprietary Linux `io_uring` kernel logic (especially if you are on macOS), a prebuilt `Dockerfile` is provided. This safely isolates kernel-privileged instructions off of your machine.
 
 **1. Build the container:**
 ```bash
